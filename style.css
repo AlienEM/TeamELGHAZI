@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600&display=swap');
+
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FFF;
+
+}
+
+.head-about {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 70px;
+}
+
+.head {
+  display: flex;
+  width: 100%;
+  padding: 20px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-nav {
+  display: flex;
+  padding: 10px 0px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.logo {
+  width: 211.719px;
+  height: 42.323px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.about,
+.services,
+.use-cases,
+.pricing,
+.blog {
+  color: #000;
+  cursor: pointer;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.requestaquote {
+  display: flex;
+  padding: 20px 35px;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  border-radius: 14px;
+  border: 1px solid var(--Dark, #191A23);
+  cursor: pointer;
+  color: #000;
+
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+
+}
+
+.about-section {
+  display: flex;
+  width: 100%;
+  padding: 0px 100px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-section-leftpart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+.about-section-title {
+  width: 531px;
+  color: #000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Space Grotesk;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.descri {
+  width: 498px;
+  color: #000;
+
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+
+}
+
+.bookconsult {
+  display: flex;
+  padding: 20px 35px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 14px;
+  background: var(--Dark, #191A23);
+  color: #FFF;
+
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+
+}
+
+.illustration {
+  width: 600.462px;
+  height: 515px;
+  flex-shrink: 0;
+}
